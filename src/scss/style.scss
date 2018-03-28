@@ -7,7 +7,18 @@ $primary--1: #0AA96C;
 //FONTS
 $font-family-sans-serif: "Raleway", "Helvetica Neue", Arial, sans-serif;
 
+.white {
+	background-color: white;
+	border-radius: 6px;
+}
 
+.text-green {
+	color: $primary--1;
+}
+
+.text-grey {
+	color: $gray;
+}
 
 body {
     background: $gray--lightest;
@@ -17,6 +28,29 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: $font-family-sans-serif;
+	font-weight: 600;
+}
+
+h1, .h1 {
+	font-size: 40px;
+}
+
+h2 {
+	color: $primary--1;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 14px;
 }
 
 h6, .h6 {
@@ -26,14 +60,9 @@ h6, .h6 {
 	color: $gray;
 }
 
-h2 {
-	color: $primary--1;
-	font-weight: 600;
-}
 
-h5, .h5 {
-	font-weight: bold;
-}
+
+
 
 .btn-primary {
 	background-color: $primary--1;
@@ -73,3 +102,7 @@ a[data-toggle="collapse"]{
     margin-left: 0;
 }
 
+ul.tasks {
+	list-style-type: none;
+	padding-left: 0;
+}
