@@ -15,7 +15,7 @@ h2 {
   color: #0AA96C;
   font-weight: 600; }
 
-h5 {
+h5, .h5 {
   font-weight: bold; }
 
 .btn-primary {

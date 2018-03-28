@@ -14,11 +14,12 @@
 
     <body>
         <div class="container">
-            <div class="row">
-                <div class="col text-center mt-5">
-                    <p class="lead">How did your week go?</p>
-                </div>
+
+        <div class="row">
+            <div class="col mt-5">
+                <h1 class="mb-4">How did you on your goals this week?</h1>
             </div>
+        </div>
 
             <div class="section">
                 <div class="subsection">
@@ -29,8 +30,14 @@
                 
                 <div class="subsection">
                     <h6>Key Results</h6>
-                    <h5>Write a blog post</h5>
-                    <h5>Give a talk or workshop at a meetup</h5>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="KR1">
+                        <label class="form-check-label h5" for="KR1">Write a blog post</h5>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="KR2">
+                        <label class="form-check-label h5" for="KR2">Give a talk or workshop at a meetup</h5>
+                    </div>
                 </div>
 
                 <div class="subsection">
@@ -63,7 +70,7 @@
                     
                 </div>
                 <div class="subsection">
-                        <h6>Habits</h6>
+                        <h6>Habits Completed</h6>
                         <form>
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="habit1">
@@ -85,8 +92,14 @@
                 
                 <div class="subsection">
                     <h6>Key Results</h6>
-                    <h5>Write a blog post</h5>
-                    <h5>Give a talk or workshop at a meetup</h5>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="KR3">
+                        <label class="form-check-label h5" for="KR3">Write a blog post</h5>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="KR4">
+                        <label class="form-check-label h5" for="KR4">Give a talk or workshop at a meetup</h5>
+                    </div>
                 </div>
 
                 <div class="subsection">
@@ -166,6 +179,46 @@
                     </form>
                     
                 </div>
+            </div>
+
+            <hr>
+
+            <div class="section">
+                <h6>Overall</h6>
+                    <div class="form-group">
+                        <label for="hours">How many hours did you spend on your objectives this week?</label>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" id="hours" >
+                            </div>
+                        </div>        
+                    </div>
+
+                    <div class="form-group">
+                        <label for="hours">How are you feeling about your progress toward your objectives?</label>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>not good</i></option>
+                                    <option>meh</i></option>
+                                    <option>decent</option>
+                                    <option>good</option>
+                                    <option>great!</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reflection">What went well? What didn't? Anything you want to do differently next week?</label>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <textarea class="form-control" id="reflection" rows="3"></textarea>
+                            </div>
+                        </div>        
+                    </div>   
+                
             </div>
             
             <button type="button" class="btn btn-primary btn-lg mt-3 mb-5">Submit Check-in</button>
