@@ -1,0 +1,47 @@
+body {
+  background: #f7f7f7; }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Raleway", "Helvetica Neue", Arial, sans-serif; }
+
+h6, .h6 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  color: #999999; }
+
+h2 {
+  color: #0AA96C;
+  font-weight: 600; }
+
+h5 {
+  font-weight: bold; }
+
+.btn-primary {
+  background-color: #0AA96C;
+  border-color: #0AA96C; }
+  .btn-primary:hover {
+    background-color: #06613e;
+    border-color: #06613e; }
+
+.btn-outline-primary {
+  color: #0AA96C;
+  border-color: #0AA96C;
+  cursor: pointer; }
+  .btn-outline-primary:hover {
+    background-color: #0AA96C;
+    border-color: #0AA96C; }
+
+a[data-toggle="collapse"]:hover, a[data-toggle="collapse"]:focus, a[data-toggle="collapse"]:active {
+  text-decoration: none;
+  color: inherit; }
+
+.subsection {
+  margin-bottom: 20px; }
+
+.why {
+  color: #999999; }
+
+.form-check-input {
+  margin-left: 0; }

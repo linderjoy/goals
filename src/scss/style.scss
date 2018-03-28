@@ -1,0 +1,75 @@
+
+//COLORS
+$gray--lightest: #f7f7f7;
+$gray: #999999;
+$primary--1: #0AA96C;
+
+//FONTS
+$font-family-sans-serif: "Raleway", "Helvetica Neue", Arial, sans-serif;
+
+
+
+body {
+    background: $gray--lightest;
+}
+
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: $font-family-sans-serif;
+}
+
+h6, .h6 {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+	color: $gray;
+}
+
+h2 {
+	color: $primary--1;
+	font-weight: 600;
+}
+
+h5 {
+	font-weight: bold;
+}
+
+.btn-primary {
+	background-color: $primary--1;
+	border-color: $primary--1;
+	&:hover {
+		background-color: darken($primary--1,15%);
+		border-color: darken($primary--1,15%);
+	}
+}
+
+.btn-outline-primary {
+	color: $primary--1;
+    border-color: $primary--1;
+    cursor: pointer;
+	&:hover {
+		background-color: $primary--1;
+		border-color: $primary--1;
+	}
+}
+
+a[data-toggle="collapse"]{
+	&:hover, &:focus, &:active {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+
+.subsection {
+	margin-bottom: 20px;
+}
+
+.why {
+	color:$gray;
+}
+
+.form-check-input {
+    margin-left: 0;
+}
+
