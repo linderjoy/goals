@@ -90,3 +90,9 @@ ul.tasks {
   padding-left: 0; }
   ul.tasks li {
     font-size: 14px; }
+
+.habit-dots {
+  margin-bottom: 5px; }
+  .habit-dots i {
+    font-size: 10px;
+    margin-right: 3px; }
